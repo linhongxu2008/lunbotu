@@ -18,22 +18,19 @@
 	  bigwidth='300'
 	  </script>
 	  <body>
-				<script>
-			  /*设置轮播图容器大小（不用填单位）*/
-			  bigwidth='300'
-			  </script>
-					<div id="biglunboturongqi"><!--创建容器（必须有）-->
+		<div id="biglunboturongqi"><!--创建容器（必须有）-->
 						<div id="inbiglunboturongqi"><!--创建轮播容器（必须有）-->
 			      <!--数量可以随便加-->
-						<div class="nei">1</div><!--1-->
-						<div class="nei">2</div><!--2-->
-						<div class="nei">3</div><!--3-->
-				    <div class="nei">4</div><!--4-->
+						<div >1</div><!--1-->
+						<div >2</div><!--2-->
+						<div >3</div><!--3-->
+						<div >4</div><!--4-->
 					</div>
+					<!--在外层中创建div(填入时间（单位：毫秒）)-->
+					<div id="timesuserid">100</div>
 					</div>
-				</body>
 			  <!--在最后加载插件-->
-				<script src="./轮播图插件.js"></script>
+				<script src="./轮播图插件 发布版.js"></script>
 			</html>
 	</html>
 ```

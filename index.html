@@ -7,23 +7,21 @@
 	</head>
 		<script>
 	  /*设置轮播图容器大小（不用填单位）*/
-	  bigwidth='300'
+	  bigwidth='1000'
 	  </script>
 	  <body>
-				<script>
-			  /*设置轮播图容器大小（不用填单位）*/
-			  bigwidth='300'
-			  </script>
-					<div id="biglunboturongqi"><!--创建容器（必须有）-->
+		<div id="biglunboturongqi"><!--创建容器（必须有）-->
 						<div id="inbiglunboturongqi"><!--创建轮播容器（必须有）-->
 			      <!--数量可以随便加-->
-						<div class="nei">1</div><!--1-->
-						<div class="nei">2</div><!--2-->
-						<div class="nei">3</div><!--3-->
-				    <div class="nei">4</div><!--4-->
+				  <!--元素不可嵌套-->
+						<div >1</div><!--1-->
+						<img src='https://pic.imgdb.cn/item/617d0c9e2ab3f51d91571baa.png' class='imgpicture'><!--2-->
+						<img src='https://pic.imgdb.cn/item/617d0c9e2ab3f51d91571bb0.png' class='imgpicture'><!--3-->
+						<img src='https://pic.imgdb.cn/item/617d0c9e2ab3f51d91571baa.png' class='imgpicture'><!--4-->
 					</div>
+					<!--在外层中创建div(填入时间（单位：毫秒）)-->
+					<div id="timesuserid">1000</div>
 					</div>
-				</body>
 			  <!--在最后加载插件-->
 				<script src="./轮播图插件.js"></script>
 			</html>

@@ -1,3 +1,4 @@
+```
 <!DOCTYPE html>
 <html>
 	<head>
@@ -26,3 +27,4 @@
 				<script src="./轮播图插件.js"></script>
 			</html>
 	</html>
+```
